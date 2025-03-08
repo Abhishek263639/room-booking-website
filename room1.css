@@ -1,0 +1,78 @@
+body {
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    margin: 0;
+    background-image: url('Deluxe-Room-at-The-Leela-Mumbai.jpg.webp'); /* Replace with your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% transparency */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.room-details {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque white background for content */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.room-image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.room-image-gallery img {
+    width: 300px; /* Adjust image size as needed */
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease; /* Add a subtle hover effect */
+}
+
+.room-image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+}
+
+.room-description {
+    line-height: 1.6;
+    color: #333;
+}
+
+.room-description ul {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+.book-now-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c0392b; /* Example color - adjust to your brand */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+    background-color: #e74c3c;
+}
